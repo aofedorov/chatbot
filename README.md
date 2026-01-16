@@ -59,19 +59,19 @@
 
 В файле database.py обновите данные для подключения к вашей MySQL-базе:
 
-```python
+```text
 
-def connection_mysql():
-    return pymysql.connect(
-        user="ваш_пользователь",
-        password="ваш_пароль",
-        host="ваш_хост",           # localhost или IP сервера
-        database="имя_базы",
-        charset='utf8mb4'
-    )
+	def connection_mysql():
+ 	return pymysql.connect(
+    user="ваш_пользователь",
+    password="ваш_пароль",
+    host="ваш_хост",           # localhost или IP сервера
+    database="имя_базы",
+    charset='utf8mb4'
+  )
+	
+	---
 
-
----
 
 ## Структура проекта
 
@@ -108,5 +108,5 @@ chatbot/
    ----------------
 """
 
-## Интерфейс бота
 
+## Интерфейс бота
